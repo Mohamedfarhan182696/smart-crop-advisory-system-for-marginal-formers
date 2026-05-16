@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Models (large files - downloaded automatically)
+models/
+*.bin
+*.pt
+*.pth
+*.safetensors
+
+# Argos Translate packages
+~/.local/share/argos-translate/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
